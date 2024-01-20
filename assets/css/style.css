@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*Header */
+
+
+
+
+h1 {
+display: inline-block;
+font-family: "Roboto", sans-serif;
+color: #F17F29;
+text-align: center;
+margin-left: 20px;
+font-size: 40px;
+}
+
+
+.ascend {
+    font-weight: 500;
+}
+
+.gym {
+    font-weight: 300;
+    margin-left: 0px;
+}
+
+h1:hover{
+    color:#f1802975;
+}
+
+.top-bar{
+    background-color: #00272B;
+    height: 60px;
+    border-bottom: 3px;
+    border-color:#00272b4f
+}
+
+#nav li{
+    color: #F17F29;
+    margin: auto;
+    margin-top: 15px;
+}
+
+#menuitems {
+    background-color:#00272B;
+}
+
+
+
+/*body */
+body {
+    background-color: #E6EBE0;
+}
+
+.hero-image{
+    width: 50px;
+    height: 200px;
+    align-content: center;
+    padding-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-hero-image{
+object-fit: cover;
+width: 600px;
+height: 350px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+/*media queries */
+@media only screen and (max-width: 576px){
+h1 {
+font-size: 1.7em;
+text-align: center;
+}
+
+#nav li{
+
+}
+}
