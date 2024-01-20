@@ -1,19 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /*Header */
-
-
-
-
-h1 {
+.title {
 display: inline-block;
 font-family: "Roboto", sans-serif;
-color: #F17F29;
 text-align: center;
 margin-left: 20px;
 font-size: 40px;
 }
 
+#logolink{
+	text-decoration: none;
+	color: #F17F29;
+}
+
+#logolink:hover{
+	opacity: 80%;
+}
 
 .ascend {
     font-weight: 500;
@@ -32,13 +35,18 @@ h1:hover{
     background-color: #00272B;
     height: 60px;
     border-bottom: 3px;
-    border-color:#00272b4f
+    border-color:#00272b4f;
+}
+
+#navigation-bar{
+	max-width: 101%;
 }
 
 #nav li{
     color: #F17F29;
     margin: auto;
     margin-top: 15px;
+	max-width: 20%;
 }
 
 #menuitems {
@@ -50,35 +58,29 @@ h1:hover{
 /*body */
 body {
     background-color: #E6EBE0;
+	overflow-x: hidden;
 }
 
 .hero-image{
-    width: 50px;
-    height: 200px;
-    align-content: center;
-    padding-top: 25px;
-    margin-left: auto;
-    margin-right: auto;
+	width: 100%;
+	min-width: 100%;
+	margin: auto;
+	background-image: url("../images/hero-image-1.jpg");
+	background-size: cover;
+	height: 70%;
+	max-height: 70%;
 }
 
-.main-hero-image{
-object-fit: cover;
-width: 600px;
-height: 350px;
-display: block;
-margin-left: auto;
-margin-right: auto;
-}
 
+
+.social-media-bar{
+margin-top: 15px;
+max-height: 15px;
+}
 
 /*media queries */
 @media only screen and (max-width: 576px){
 h1 {
 font-size: 1.7em;
 text-align: center;
-}
-
-#nav li{
-
-}
 }
