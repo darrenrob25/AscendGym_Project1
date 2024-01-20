@@ -71,16 +71,30 @@ body {
 	max-height: 70%;
 }
 
-
+.hero-container{
+    padding-left: 45%;
+    padding-right: 45%;
+    padding-top: 15%;
+    text-align:center;
+    border: solid
+}
 
 .social-media-bar{
 margin-top: 15px;
 max-height: 15px;
 }
 
+.hero-container{
+    text-align: center;
+}
+
+#hero-logo{
+    width: 150%;
+}
 /*media queries */
 @media only screen and (max-width: 576px){
 h1 {
 font-size: 1.7em;
 text-align: center;
+}
 }
