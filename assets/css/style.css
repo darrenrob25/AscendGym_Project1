@@ -50,7 +50,7 @@ font-size: 40px;
     background-color: #00272B;
     height: 60px;
     border-bottom: 3px;
-    border-color:#00272b4f;
+    border-color:#00000094;
 }
 
 #navigation-bar{
@@ -62,10 +62,6 @@ font-size: 40px;
     margin: auto;
     margin-top: 15px;
 	max-width: 20%;
-}
-
-#menuitems {
-    background-color:#00272B;
 }
 
 .header-social-links{
@@ -82,7 +78,7 @@ body {
 	width: 100%;
 	min-width: 100%;
 	margin: auto;
-	background-image: url("../images/hero-image-1.jpg");
+	background-image: url("../images/join-hero.jpg");
 	background-size: cover;
 	height: 70%;
 	max-height: 70%;
@@ -98,6 +94,8 @@ body {
 .social-media-bar{
 margin-top: 15px;
 max-height: 15px;
+justify-content: center;
+
 }
 
 .hero-message{
@@ -151,7 +149,7 @@ border-color:#F17F29;
 }
 
 .text-box{
- padding-top: 20px;
+ padding-top: 130px;
  background-color: #00272b00;
  border-radius: 15px;
  color:#00272B;
@@ -166,13 +164,15 @@ h3{
 .page-text{
     width: 80%;
     padding-top: 25px;
+    justify-content: center;
 }
 
 .page-image{
     width: 80%;
-    height: 80%;
-    padding-top: 100px;
+    margin-top: 100px;
     margin-right: 120px;
+    justify-content:center;
+    border-radius: 20px;
 }
 
 .maincontent-row{
@@ -184,6 +184,7 @@ h3{
 footer {
     background-color:#00272B;
     max-width: 200%;
+    margin-top: 50px;
 }
 
 .bottom-item{
@@ -203,6 +204,119 @@ footer {
 .contact-info-footer{
     padding-top: 17px;
     text-wrap: nowrap;
+    padding-left: 7%;
+}
+
+.signup-form{
+    text-align:center;
+    background-color:#00272b67;
+    margin-top: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    color:#F17F29;
+    border-radius: 25px;
+    justify-content:center;
+}
+
+.form-background{
+    background-image: url("../images/signup-background-img.jpg");
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: solid 2px #F17F29;
+}
+
+label{
+    padding-top: 18px;
+    font-size: 1em;
+}
+
+input {
+    width: 50%;
+    border-radius: 20px;
+    box-shadow:#F17F29 50px;
+    background-color:#00272bbd;
+    color:#F17F29;
+    text-align: center;
+    border: 1px #F17F29 solid;
+ 
+}
+
+input[type=text],
+input[type=email],
+input[type=date],
+input[type=tel] {
+height: 35px;
+}
+
+input:focus {
+    border: 4px #F17F29 solid;
+}
+
+input[type=checkbox]{
+    width:min-content;
+    cursor: pointer;
+}
+
+input[type=submit]{
+    width:min-content;
+    margin-bottom: 15px;
+}
+
+input[type=submit]:hover{
+    background-color:#00272B;
+    font-weight: 550;
+    cursor:pointer;
+}
+
+.classes{
+    background-image:url("/assets/images/join-hero.jpg");
+    height:570px;
+}
+
+.class-child{
+    background-color:#00272bb4;
+    height: 450px;
+    width: 300px;
+    margin-top: 5%;
+    margin-left: 3px;
+    margin-right: 3px;
+    position: flex;
+    
+
+}
+
+.classrow{
+    display:flex;
+    margin-left: auto;
+    margin-right:auto;
+    width: 68%;
+}
+
+.class-text{
+    color:#F17F29;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+    font-weight: 300;
+}
+
+.class-icon{
+    color:#F17F29;
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-top: 50px;;
+    font-size: 55;
+}
+
+h4{
+    color:#f18029;
+    text-align: center;
+    margin-top: 7%;
 }
 
 /*media queries */
@@ -225,4 +339,36 @@ text-align: center;
         margin-left: 20%;
         margin-right: 20%;
     }
+
+    .contact-info-footer{
+        text-align: center;
     }
+
+    .signup-form{
+        margin-top: 50px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .form-background{
+        background-image: url("../images/signup-background-img.jpg");
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        border: solid 2px #F17F29;
+    }
+
+    input{
+        width:95%;
+    }
+
+    }
+
+    
+
+ 
+    
