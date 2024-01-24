@@ -274,8 +274,9 @@ input[type=submit]:hover{
 }
 
 .classes{
-    background-image:url("/assets/images/join-hero.jpg");
-    height:570px;
+    margin-top: 50px;
+    background-image:url("../images/join-hero.jpg");
+    height:auto;
 }
 
 .class-child{
@@ -283,18 +284,24 @@ input[type=submit]:hover{
     height: 450px;
     width: 300px;
     margin-top: 5%;
+    margin-bottom: 5%;
     margin-left: 3px;
     margin-right: 3px;
     position: flex;
+    object-fit: cover;
     
 
 }
 
+#fa:hover{
+    color:#f1802983;
+}
+
 .classrow{
     display:flex;
-    margin-left: auto;
-    margin-right:auto;
-    width: 68%;
+    margin: auto;
+    width: 80%;
+    justify-content:center;
 }
 
 .class-text{
@@ -308,6 +315,14 @@ input[type=submit]:hover{
 .class-icon{
     color:#F17F29;
     padding-left: 35%;
+    padding-right: 35%;
+    padding-top: 50px;;
+    font-size: 55;
+}
+
+.class-icon2{
+    color:#F17F29;
+    padding-left: 37%;
     padding-right: 35%;
     padding-top: 50px;;
     font-size: 55;
