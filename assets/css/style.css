@@ -367,10 +367,10 @@ input[type=submit]:hover{
 
 .class-icon{
     color:#F17F29;
-    padding-left: 35%;
+    padding-left: 33%;
     padding-right: 35%;
     padding-top: 50px;;
-    font-size: 55;
+    font-size: 55px;
 }
 
 .class-icon2{
@@ -378,7 +378,7 @@ input[type=submit]:hover{
     padding-left: 37%;
     padding-right: 35%;
     padding-top: 50px;;
-    font-size: 55;
+    font-size: 55px;
 }
 
 .contact-symbol{
