@@ -176,6 +176,15 @@ h5{
     padding-top: 35px;
 }
 
+h6{
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 0px;
+    font-size:1.7rem;
+}
+
 .page-text{
     width: 80%;
     padding-top: 25px;
@@ -188,6 +197,17 @@ h5{
     margin-right: 120px;
     justify-content:center;
     border-radius: 20px;
+}
+
+iframe{
+    width: 60%;
+    height: 70%;
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 120px;
+    justify-content:center;
+    border-radius: 20px;
+    position: flex;
 }
 
 .maincontent-row{
