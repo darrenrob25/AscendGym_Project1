@@ -34,3 +34,25 @@ Below are some designs that I've put together to help build the site, these desi
 
 #### Contact.html Page
 ![Image of contact.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/wireframe-contact.html.png)
+
+***
+
+### Features
+
+#### Index Page
+* The Home Page shows the name of the Gym and has a contrasting colour with the background, ensuring easability of reading.
+* The Home Page clearly shows the navigation menu at the top and has a button, allowing users to go directly to the join page.
+![Image of index.html page](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/index-image-1.png)
+<br>
+
+* The page text gives an indepth look at what the gym is and the values which it holds.
+* The page has visual images to break up the text and gives the viewer something visually engaging to look at.
+  
+![Image of index.html page](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/index-image-2-.png)
+<br>
+
+* The bottom of the index page shows a video tour of the gym.
+* The footer allows for easy access to the terms and conditions, social media links and contact info.
+* Once again the footer colouration matches the header, creating a repetitive style.
+
+![Image of index.html page](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/index-image-3.png)
