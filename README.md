@@ -19,4 +19,4 @@ The website has been created with different user stories in mind, this is becaus
 
 ### Wireframes
 Below are some designs that I've put together to help build the site, these designs contain elements which are required to meet the users needs as presented within the user stories.
-![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/assets/Media/wireframe contact.html.png?raw=true)
+![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/assets/Media/wireframe-index.html.png)
