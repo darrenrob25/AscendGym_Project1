@@ -55,6 +55,7 @@ font-size: 40px;
 
 #navigation-bar{
 	max-width: 200%;
+    background-color:#00272B;
 }
 
 #nav li{
@@ -369,7 +370,7 @@ input[type=submit]:hover{
     color:#F17F29;
     padding-left: 33%;
     padding-right: 35%;
-    padding-top: 50px;;
+    padding-top: 50px;
     font-size: 55px;
 }
 
@@ -377,7 +378,7 @@ input[type=submit]:hover{
     color:#F17F29;
     padding-left: 37%;
     padding-right: 35%;
-    padding-top: 50px;;
+    padding-top: 50px;
     font-size: 55px;
 }
 
@@ -402,13 +403,13 @@ font-size: 1.7em;
 text-align: center;
 }
 #navigation-bar{
-    padding-bottom: 125
+    padding-bottom: 125;
 }
 }
 
 @media only screen and (max-width: 982px){
     #navigation-bar{
-        padding-bottom: 125
+        padding-bottom: 125px;
     }
 
     .hero-message{
@@ -442,9 +443,4 @@ text-align: center;
         width:95%;
     }
 
-    }
-
-    
-
- 
-    
+}
