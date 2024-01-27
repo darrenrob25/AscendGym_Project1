@@ -65,8 +65,10 @@ Below are some designs that I've put together to help build the site, these desi
   <br>
 * Upon scrolling down you will see that there is a form to register your interest, all fields are required.
 * The form again uses colours that are used throughout the site, which are easy to read and recognisable.
-![Image of join.html page](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/join-image-2.png)
+  ![Image of join.html page](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/join-image-2.png)
 <br>
-* If you submit your details, you will be taken to a dummy page showing that the form has been submitted, nothing happens with the details entered, as this is purely a front-end website; as I have not learned javascript yet.
-![Image of join.html page](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/join-image-3.png)
+
+* If you submit your details, you will be taken to a dummy page showing that the form has been submitted, nothing happens with the details entered, as this is purely a front-end website; as I have not learned javascript yet. 
+  
+  ![Image of join.html page](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/join-image-3.png)
   
