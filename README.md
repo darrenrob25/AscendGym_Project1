@@ -92,4 +92,5 @@ Below are some designs that I've put together to help build the site, these desi
 #### Validator Testing
 
 ##### HTML
-* Index: 
+* Index: No errors were returned when passing it through the official W3C validator<br>
+https://validator.w3.org/nu/?doc=https%3A%2F%2Fdarrenrob25.github.io%2FAscendGym_Project1%2Findex.html
