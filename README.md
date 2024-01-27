@@ -85,3 +85,11 @@ Below are some designs that I've put together to help build the site, these desi
   * Utilises Font Awesome Icons
     ![Image of join.html page](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/contact-image-1.png)
   <br>
+***
+
+  ### Testing
+
+#### Validator Testing
+
+##### HTML
+* Index: 
