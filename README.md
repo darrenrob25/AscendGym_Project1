@@ -56,3 +56,19 @@ Below are some designs that I've put together to help build the site, these desi
 * Once again the footer colouration matches the header, creating a repetitive style.
 
 ![Image of index.html page](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/index-image-3.png)
+
+
+#### Join Page
+* The join page contains a familar banner to the Home page, in the same style and colours to create a brand representation, with differing text.
+* A form to register your interest is clearly in view, however you must scroll down to complete it.
+  ![Image of join.html page](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/join-image-1.png)
+  <br>
+* Upon scrolling down you will see that there is a form to register your interest, all fields are required.
+* The form again uses colours that are used throughout the site, which are easy to read and recognisable.
+  ![Image of join.html page](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/join-image-2.png)
+<br>
+
+* If you submit your details, you will be taken to a dummy page showing that the form has been submitted, nothing happens with the details entered, as this is purely a front-end website; as I have not learned javascript yet. 
+  
+  ![Image of join.html page](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/join-image-3.png)
+  
