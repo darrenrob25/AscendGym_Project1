@@ -71,4 +71,17 @@ Below are some designs that I've put together to help build the site, these desi
 * If you submit your details, you will be taken to a dummy page showing that the form has been submitted, nothing happens with the details entered, as this is purely a front-end website; as I have not learned javascript yet. 
   
   ![Image of join.html page](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/join-image-3.png)
-  
+
+  #### Classes Page
+  * The classes page contains the same sort of style as other pages, helping to create a brand image.
+  * It simply sets out the information that a prospective member, or member would need to know what classes are on when.
+    
+    ![Image of join.html page](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/classes-image-1.png)
+  <br>
+
+  #### Contact Page
+  * Uses a similar style to the classes page.
+  * Sets out in a simple way the opening times & Contact information.
+  * Utilises Font Awesome Icons
+    ![Image of join.html page](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/contact-image-1.png)
+  <br>
