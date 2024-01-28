@@ -206,3 +206,56 @@ Code After:
     }
 }
 ```
+
+***
+### Deployment
+#### Cloning & Forking
+##### Clone
+* Above the list of files click the button that says 'Code'.
+* Copy the URL for the repository.
+* Open Terminal. Change the directory to the location where you want the cloned directory.
+* Type git clone, and then paste the URL
+* Press Enter.
+
+##### Fork
+* On GitHub.com, navigate to the [darrenrob25/AscendGym_Project1](https://github.com/darrenrob25/AscendGym_Project1/) repository.
+* In the top-right corner of the page, click Fork.
+* By default, forks are named the same as their parent repositories. You can change the name of the fork to distinguish it further.
+* Add a description to your fork.
+* Click Create fork.
+* Clone
+* Above the list of files click the button that says 'Code'.
+* Copy the URL for the repository.
+* Open Terminal. Change the directory to the location where you want the cloned directory.
+* Type git clone, and then paste the URL
+* Press Enter.
+
+##### Local Deployment
+* Sign up to [Gitpod](https://www.gitpod.io/)
+* Download the Gitpod browser extension.
+* On GitHub.com, navigate to the [darrenrob25/AscendGym_Project1](https://github.com/darrenrob25/AscendGym_Project1/) repository.
+* Above the list of files click the button that says 'Gitpod'.
+
+#### Remote Deployment
+The site was deployed to Github pages. If you have forked/cloned the repository the steps to deploy are as below:
+
+* On GitHub.com, navigate to your repository.
+* Go to the settings tab.
+* Click on the tab called 'pages' found on the left hand side.
+* From the source drop down list which is located under Build and deployment, select main.
+* The page will then provide the link to the website.
+* The live link can be found here - [Ascend Gym](https://darrenrob25.github.io/AscendGym_Project1/index.html)
+
+  ***
+
+  ### Credits
+  #### Content
+  * The Code Institute [Love Running](https://code-institute-org.github.io/love-running-2.0/index.html) project inspired some of the processed behind this project
+  * The Code Institute [Resume Mini Project](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master) provided some inspiration and opened my eyes to the utilisation of Bootstrap.
+  * [W3Schools](https://www.w3schools.com/) helped as a reference point for HTML and CSS code.
+  * *[Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/) Framework was utilised to help with CSS styling.
+ 
+  #### Media
+  * All images were taken from [Pexels](https://www.pexels.com/search/uk/) which provides free stock photos as to not infringe on copyright.
+  * The gym tour video was taken from [Life Fitness NZ's](https://www.youtube.com/@lifefitnessinnz) Youtube channel.
+  * Page Icons were taken from [Font Awesome](https://fontawesome.com/v4/icons/) library.
