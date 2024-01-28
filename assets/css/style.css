@@ -306,6 +306,9 @@ input[type=submit]:hover{
     cursor:pointer;
 }
 
+.submitsection{
+    padding-bottom: 40px;
+}
 
 /*Class Page Content*/
 .classes{
