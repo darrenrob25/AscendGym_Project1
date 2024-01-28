@@ -396,9 +396,13 @@ h1 {
 font-size: 1.7em;
 text-align: center;
 }
+
 #navigation-bar{
     padding-bottom: 125px;
 }
+
+
+
 }
 
 @media only screen and (max-width: 982px){
@@ -455,3 +459,33 @@ text-align: center;
     }
 
 }
+
+@media(max-width: 320px){ 
+    
+
+h3{
+    font-size: 18px;
+}
+
+.bottom-item a{
+    font-size: 8px !important;
+}
+
+.bottom-socials{
+    font-size: 10px;
+    padding-top: 40%;
+}
+
+.footer-address,
+.footer-telephone {
+    font-size: 8px;
+}
+
+body{
+    font-size: 12px;
+}
+
+#make-change{
+    font-size: 25px;
+}
+  }
