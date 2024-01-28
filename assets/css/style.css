@@ -3,9 +3,7 @@
 html{
     overflow-x: hidden;
   }
-
-
-
+  
 a{
     text-decoration: none;
     color:#F17F29
@@ -137,8 +135,6 @@ border-color:#F17F29;
     border-color:#F17F29;
 }
 
-
-
 /*Main Page Content*/
 .text-box{
  padding-top: 130px;
@@ -206,9 +202,7 @@ h6{
     font-size:1.7rem;
 }
 
-
 /*footer*/
-
 footer {
     background-color:#00272B;
     max-width: 200%;
@@ -241,7 +235,6 @@ footer {
 }
 
 /*Form Code*/
-
 .signup-form{
     text-align:center;
     background-color:#00272b67;
@@ -326,8 +319,6 @@ input[type=submit]:hover{
     margin-left: 3px;
     margin-right: 3px;
     object-fit: cover;
-    
-
 }
 
 .classrow{
@@ -396,8 +387,6 @@ input[type=submit]:hover{
     font-size: 1rem;
 }
 
-
-
 /*media queries for normal mobile devices*/
 @media only screen and (max-width: 576px){
 h1 {
@@ -409,7 +398,6 @@ text-align: center;
     padding-bottom: 125px;
 }
 }
-
 
 /*Media queries for tablets*/
 @media only screen and (max-width: 982px){
@@ -464,12 +452,10 @@ text-align: center;
         margin-top: 35px;
         font-weight: 300;
     }
-
 }
 
 /*Media queries for the Galaxy Fold*/
 @media(max-width: 320px){ 
-    
 
 h3{
     font-size: 18px;
