@@ -2,6 +2,7 @@
 
 ## User Centric Frontend Development Project - Ascend Gym Website
 
+live link can be found here - [Ascend Gym](https://darrenrob25.github.io/AscendGym_Project1/index.html)
 
 ### About
 Ascend Gym is a high end gymnnasium based in Newcastle Upon Tyne, UK. The main focus of the business is to offer a higher quality experience over most chain gyms, being less crowded and offering better quality equipment. The purpose of the website is to provide a place where people who want to join can register their interest, so that the gym can reach out to talk about membership options. They also want to provide basic information regarding the gym such as: Address, what to expect and when classes will be hosted at the gym. The website is made up using HTML, CSS and Bootstrap 4, so the form is unable to actually send off information at this time.
