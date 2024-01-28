@@ -61,6 +61,10 @@ font-size: 40px;
     background-color:#00272B;
 }
 
+.navbar{
+    padding: 0;
+}
+
 #nav li{
     color: #F17F29;
     margin: auto;
