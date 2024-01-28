@@ -2,6 +2,7 @@
 
 ## User Centric Frontend Development Project - Ascend Gym Website
 
+live link can be found here - [Ascend Gym](https://darrenrob25.github.io/AscendGym_Project1/index.html)
 
 ### About
 Ascend Gym is a high end gymnnasium based in Newcastle Upon Tyne, UK. The main focus of the business is to offer a higher quality experience over most chain gyms, being less crowded and offering better quality equipment. The purpose of the website is to provide a place where people who want to join can register their interest, so that the gym can reach out to talk about membership options. They also want to provide basic information regarding the gym such as: Address, what to expect and when classes will be hosted at the gym. The website is made up using HTML, CSS and Bootstrap 4, so the form is unable to actually send off information at this time.
@@ -126,7 +127,8 @@ https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdarrenrob25.gith
 ### Accessibility Testing
 Accessibility testing is to check the colors and fonts, ensuring that things are easily read. For this I used the Lighthouse in the google devtools. 
 #### Index Page
-![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/index-accessibility.png)
+
+![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/Index-accessibility.png)
 
 #### Join Page
 ![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/join-accessibility.png)
@@ -138,7 +140,123 @@ Accessibility testing is to check the colors and fonts, ensuring that things are
 ![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/contact-accessibility.png)
 
 #### Form Success Page
-![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/form-accessibility.png)
+![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/success-accessibility.png)
 
 #### Coming Soon Page
 ![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/soon-accessibility.png)
+
+***
+### Manual Testing
+As part of manually testing on my own I have:
+* Tested that pages work in different web browsers.
+* I have tested that the project is responsive on different sized devices and functions as normal.
+* I have tested all text and font, ensuring readability.
+* I have tested all links, ensuring there are no deadlinks and all work correctly.
+
+  
+| Page    | Desktop                                                                                                              | Tablet | Mobile |
+|---------|----------------------------------------------------------------------------------------------------------------------|--------|--------|
+| Index   | ![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/Desktop-index.png)   | ![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/tablet-index.png)      | ![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/mobile-index.png)      |
+| Join    | ![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/Desktop-join.png)    | ![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/tablet-join.png)      | ![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/mobile-join.png)      |
+| Classes | ![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/desktop-classes.png) | ![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/tablet-classes.png)      | ![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/mobile-classes.png)      |
+| Contact | ![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/desktop-contact.png) | ![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/tablet-contact.png)      | ![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/mobile-contact.png)      |
+
+***
+
+### Bugs
+During building of the site, bugs reared their head on a few occassions, below are those occassions and how I fixed the problem.
+
+#### Bug 1
+The first bug that I encountered had to do with the header, on mobile devices the pages would drop down to a second line. However, this line was behind the hero image. Making it impossible to navigate on mobile.
+I fixed this by adding a padding while on a mobile device to push the navigation bar down, creating more room for the pages.
+
+Code After:
+```@media only screen and (max-width: 982px){
+    #navigation-bar{
+        padding-bottom: 125px;
+    }
+    }
+```
+
+#### Bug 2
+The second bug that I encountered is that nav links were overlapping when at a galaxy fold size, there were two ways in which this could have been rectified, the first would be a burger dropdown menu. However, I was unsure on how to do these and I couldn't find an example which didn't include javascript. Therefore, I decided to make the text smaller at this device size. Adding a burger menu may be a good idea in the future.
+
+Code After:
+
+```@media(max-width: 320px){ 
+body{
+    font-size: 12px;
+}
+```
+
+#### Bug 3
+The third bug that I encountered was that the signup form on mobile was way too think, this was due to the margins on the right and left being too great for a mobile device; to fix this I added some code within the mobile media query.
+
+Code After:
+```@media only screen and (max-width: 982px){
+ .form-background{
+        background-image: url("../images/signup-background-img.jpg");
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        border: solid 2px #F17F29;
+    }
+}
+```
+
+***
+### Deployment
+#### Cloning & Forking
+##### Clone
+* Above the list of files click the button that says 'Code'.
+* Copy the URL for the repository.
+* Open Terminal. Change the directory to the location where you want the cloned directory.
+* Type git clone, and then paste the URL
+* Press Enter.
+
+##### Fork
+* On GitHub.com, navigate to the [darrenrob25/AscendGym_Project1](https://github.com/darrenrob25/AscendGym_Project1/) repository.
+* In the top-right corner of the page, click Fork.
+* By default, forks are named the same as their parent repositories. You can change the name of the fork to distinguish it further.
+* Add a description to your fork.
+* Click Create fork.
+* Clone
+* Above the list of files click the button that says 'Code'.
+* Copy the URL for the repository.
+* Open Terminal. Change the directory to the location where you want the cloned directory.
+* Type git clone, and then paste the URL
+* Press Enter.
+
+##### Local Deployment
+* Sign up to [Gitpod](https://www.gitpod.io/)
+* Download the Gitpod browser extension.
+* On GitHub.com, navigate to the [darrenrob25/AscendGym_Project1](https://github.com/darrenrob25/AscendGym_Project1/) repository.
+* Above the list of files click the button that says 'Gitpod'.
+
+#### Remote Deployment
+The site was deployed to Github pages. If you have forked/cloned the repository the steps to deploy are as below:
+
+* On GitHub.com, navigate to your repository.
+* Go to the settings tab.
+* Click on the tab called 'pages' found on the left hand side.
+* From the source drop down list which is located under Build and deployment, select main.
+* The page will then provide the link to the website.
+* The live link can be found here - [Ascend Gym](https://darrenrob25.github.io/AscendGym_Project1/index.html)
+
+  ***
+
+  ### Credits
+  #### Content
+  * The Code Institute [Love Running](https://code-institute-org.github.io/love-running-2.0/index.html) project inspired some of the processed behind this project
+  * The Code Institute [Resume Mini Project](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master) provided some inspiration and opened my eyes to the utilisation of Bootstrap.
+  * [W3Schools](https://www.w3schools.com/) helped as a reference point for HTML and CSS code.
+  * *[Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/) Framework was utilised to help with CSS styling.
+ 
+  #### Media
+  * All images were taken from [Pexels](https://www.pexels.com/search/uk/) which provides free stock photos as to not infringe on copyright.
+  * The gym tour video was taken from [Life Fitness NZ's](https://www.youtube.com/@lifefitnessinnz) Youtube channel.
+  * Page Icons were taken from [Font Awesome](https://fontawesome.com/v4/icons/) library.
