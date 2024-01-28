@@ -117,6 +117,28 @@ https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdarrenrob25.gith
 |--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|
 | 1            | As a member of the gym, I want to be able to see the opening and closing times.<br><br>   I know this has been done when members of the gym are able to find the opening and closing times of the gym.<br><br> Members of the gym are able to see the opening and closing times on the contact us page.![Image of opening times](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/opening-times-image.png)                                                                                                 | Passed |
 | 2            | As a member of the gym, I want to be able to find out when classes are hosted.<br><br>  I know this has been done when members of the gym are able to find the days and times that different classes are hosted.<br><br> Members are able to see what classes are on and when on the classes page. ![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/classes-image.png)                                                                                                              | Passed |
-| 3            | As a potential member of the gym, I want to be able to register my interest so that I can be contacted to discuss joining the gym further.<br><br>  I know this has been done when potential members of the gym are able to reach out and contact the gym to register interest. <br><br>Potential members are able to register their interest in joining the gym on the join page, by filling in the provided form.![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/form-image.png) | Passed |
+| 3            | As a potential member of the gym, I want to be able to register my interest so that I can be contacted to discuss joining the gym further.<br><br>  I know this has been done when potential members of the gym are able to reach out and contact the gym to register interest. <br><br>Potential members are able to register their interest in joining the gym on the join page, by filling in the provided form. At this time only the CSS and HTML is setup, as this project did not include javascript etc. So this is something that could be improved upon in the future. ![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/form-image.png) | Passed/Requires future work. |
 | 4            | As a Potential member of the gym, I want to know where the gym is located so that I can find out if it is close enough for me to join.<br><br>  I know this has been done when potential members of the gym are able to find the location of the gym. <br><br>Potential members are able to see the location of the gym in both the contact page and in the footer of every page.![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/contact-image.png)                                | Passed |
 | 5            | As a potential member of the gym, I want to view the facilities within the gym.<br><br>  I know this has been done when a potential member of the gym is able to view a video tour of the gym, showing the facilities. <br><br> Potential members can find a tour video of the gym at the bottom of the home page, which highlights the facilities available to use.![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/tour-image.png)                                                | Passed |
+
+***
+
+### Accessibility Testing
+Accessibility testing is to check the colors and fonts, ensuring that things are easily read. For this I used the Lighthouse in the google devtools. 
+#### Index Page
+![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/index-accessibility.png)
+
+#### Join Page
+![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/join-accessibility.png)
+
+#### Classes Page
+![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/classes-accessibility.png)
+
+#### Contact Page
+![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/contact-accessibility.png)
+
+#### Form Success Page
+![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/form-accessibility.png)
+
+#### Coming Soon Page
+![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/soon-accessibility.png)
