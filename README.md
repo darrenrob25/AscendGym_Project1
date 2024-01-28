@@ -187,3 +187,22 @@ body{
     font-size: 12px;
 }
 ```
+
+#### Bug 3
+The third bug that I encountered was that the signup form on mobile was way too think, this was due to the margins on the right and left being too great for a mobile device; to fix this I added some code within the mobile media query.
+
+Code After:
+```@media only screen and (max-width: 982px){
+ .form-background{
+        background-image: url("../images/signup-background-img.jpg");
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        border: solid 2px #F17F29;
+    }
+}
+```
