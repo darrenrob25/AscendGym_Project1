@@ -4,9 +4,7 @@ html{
     overflow-x: hidden;
   }
 
-body {
-    font-family: "roboto", sans-serif;
-}
+
 
 a{
     text-decoration: none;
@@ -22,7 +20,7 @@ span {
     max-width: 100%;
 }
 
-/*Header */
+/*Header and Navbar Styling*/
 .title {
 display: inline-block;
 font-family: "Roboto", sans-serif;
@@ -61,10 +59,6 @@ font-size: 40px;
     background-color:#00272B;
 }
 
-.navbar{
-    padding: 0;
-}
-
 #nav li{
     color: #F17F29;
     margin: auto;
@@ -77,10 +71,16 @@ font-size: 40px;
     margin-left: 20%;
 }
 
-/*body */
+/*Restyling Bootstrap Item*/
+.navbar{
+    padding: 0;
+}
+
+/*body and Hero Image code*/
 body {
     background-color: #fafafa;
 	overflow-x: hidden;
+    font-family: "roboto", sans-serif;
 }
 
 .hero-image{
@@ -98,13 +98,6 @@ body {
     text-align:center;
 }
 
-.social-media-bar{
-margin-top: 15px;
-max-height: 15px;
-justify-content: center;
-
-}
-
 .hero-message{
     background-color: #00272b8e;
     margin-left: 35%;
@@ -116,6 +109,20 @@ justify-content: center;
     width: 150%;
 }
 
+#make-change{
+    font-size:35px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color:#F17F29;
+    }
+
+#interest{
+        font-size: 25px;
+        font-weight: 300;
+        color:#F17F29;
+    }
+
+/*Button Code - Restyling Bootstrap Item*/
 .btn-secondary{
 margin-bottom: 20px;
 color: #F17F29;
@@ -131,63 +138,14 @@ border-color:#F17F29;
 }
 
 
-#make-change{
-    font-size:35px;
-    font-weight: 500;
-    text-transform: uppercase;
-    color:#F17F29;
-    }
 
-
-#interest{
-    font-size: 25px;
-    font-weight: 300;
-    color:#F17F29;
-}
-
-.bottom-socials {
-    padding-top: 3%;
-}
-
-.text-box{
-    margin-top: 20px;
-}
-
+/*Main Page Content*/
 .text-box{
  padding-top: 130px;
  background-color: #00272b00;
  border-radius: 15px;
  color:#00272B;
-}
-
-
-
-h3{
-    font-weight: 500;
-    text-transform: uppercase;
-    width: 80%;
-}
-
-h4{
-    color:#f18029;
-    text-align: center;
-    margin-top: 7%;
-}
-
-h5{
-    font-weight: 500;
-    text-transform: uppercase;
-    width: 100%;
-    padding-top: 35px;
-}
-
-h6{
-    font-weight: 500;
-    text-transform: uppercase;
-    text-align: center;
-    padding-top: 200px;
-    padding-bottom: 0px;
-    font-size:1.7rem;
+ margin-top: 20px;
 }
 
 .page-text{
@@ -218,6 +176,37 @@ iframe{
     padding-left: 20%;
     padding-top: 30px;
 }
+
+/*Text Headings*/
+h3{
+    font-weight: 500;
+    text-transform: uppercase;
+    width: 80%;
+}
+
+h4{
+    color:#f18029;
+    text-align: center;
+    margin-top: 7%;
+}
+
+h5{
+    font-weight: 500;
+    text-transform: uppercase;
+    width: 100%;
+    padding-top: 35px;
+}
+
+h6{
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 0px;
+    font-size:1.7rem;
+}
+
+
 /*footer*/
 
 footer {
@@ -244,6 +233,14 @@ footer {
     padding-top: 17px;
     padding-left: 7%;
 }
+
+/*Social Media Links*/
+
+.bottom-socials {
+    padding-top: 3%;
+}
+
+/*Form Code*/
 
 .signup-form{
     text-align:center;
@@ -309,6 +306,8 @@ input[type=submit]:hover{
     cursor:pointer;
 }
 
+
+/*Class Page Content*/
 .classes{
     margin-top: 50px;
     background-image:url("../images/join-hero.jpg");
@@ -328,21 +327,6 @@ input[type=submit]:hover{
 
 }
 
-.contact-child{
-    background-color:#00272bb4;
-    height: 600px;
-    width: 45%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 3px;
-    margin-right: 3px;
-    object-fit: cover;
-}
-
-#fa:hover{
-    color:#f1802983;
-}
-
 .classrow{
     display:flex;
     margin: auto;
@@ -357,15 +341,6 @@ input[type=submit]:hover{
     margin-top: 30px;
     font-weight: 300;
 }
-
-.open-text{
-    color:#F17F29;
-    text-align: center;
-    font-size: 18px;
-    margin-top: 30px;
-    font-weight: 300;
-}
-
 
 .class-icon{
     color:#F17F29;
@@ -383,6 +358,26 @@ input[type=submit]:hover{
     font-size: 55px;
 }
 
+/*Contact Page Content*/
+.contact-child{
+    background-color:#00272bb4;
+    height: 600px;
+    width: 45%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 3px;
+    margin-right: 3px;
+    object-fit: cover;
+}
+
+.open-text{
+    color:#F17F29;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+    font-weight: 300;
+}
+
 .contact-symbol{
     color:#F17F29;
     font-size: 40px;
@@ -398,7 +393,9 @@ input[type=submit]:hover{
     font-size: 1rem;
 }
 
-/*media queries */
+
+
+/*media queries for normal mobile devices*/
 @media only screen and (max-width: 576px){
 h1 {
 font-size: 1.7em;
@@ -408,11 +405,10 @@ text-align: center;
 #navigation-bar{
     padding-bottom: 125px;
 }
-
-
-
 }
 
+
+/*Media queries for tablets*/
 @media only screen and (max-width: 982px){
     #navigation-bar{
         padding-bottom: 125px;
@@ -468,6 +464,7 @@ text-align: center;
 
 }
 
+/*Media queries for the Galaxy Fold*/
 @media(max-width: 320px){ 
     
 
@@ -496,4 +493,4 @@ body{
 #make-change{
     font-size: 25px;
 }
-  }
+}
