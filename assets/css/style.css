@@ -399,15 +399,6 @@ text-align: center;
 #navigation-bar{
     padding-bottom: 125px;
 }
-
-.contact-child{
-    height: 600px;
-    width: 100%
-}
-
-.get-in-touch{
-    font-size: 15px;
-}
 }
 
 @media only screen and (max-width: 982px){
@@ -444,6 +435,15 @@ text-align: center;
 
     input{
         width:95%;
+    }
+
+    .contact-child{
+        height: 600px;
+        width: 100%
+    }
+    
+    .get-in-touch{
+        font-size: 15px;
     }
 
     .open-text{
