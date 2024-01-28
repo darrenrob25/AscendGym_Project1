@@ -15,7 +15,6 @@ a:hover{
 }
 
 span {
-    text-wrap: nowrap;
     max-width: 100%;
 }
 
@@ -87,8 +86,6 @@ body {
 }
 
 .hero-container{
-    padding-left: auto;
-    padding-right: auto;
     padding-top: 15%;
     text-align:center;
 }
@@ -131,7 +128,6 @@ border-color:#F17F29;
     font-weight: 500;
     text-transform: uppercase;
     color:#F17F29;
-    text-wrap: wrap;
     }
 
 
@@ -139,7 +135,6 @@ border-color:#F17F29;
     font-size: 25px;
     font-weight: 300;
     color:#F17F29;
-    text-wrap: wrap;
 }
 
 .bottom-socials {
@@ -239,7 +234,6 @@ footer {
 
 .contact-info-footer{
     padding-top: 17px;
-    text-wrap: nowrap;
     padding-left: 7%;
 }
 
@@ -456,7 +450,6 @@ text-align: center;
         color:#F17F29;
         text-align: center;
         font-size: 15px;
-        text-wrap: nowrap;
         margin-top: 35px;
         font-weight: 300;
     }
