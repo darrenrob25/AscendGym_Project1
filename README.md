@@ -126,7 +126,8 @@ https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdarrenrob25.gith
 ### Accessibility Testing
 Accessibility testing is to check the colors and fonts, ensuring that things are easily read. For this I used the Lighthouse in the google devtools. 
 #### Index Page
-![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/index-accessibility.png)
+
+![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/Index-accessibility.png)
 
 #### Join Page
 ![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/join-accessibility.png)
@@ -138,7 +139,51 @@ Accessibility testing is to check the colors and fonts, ensuring that things are
 ![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/contact-accessibility.png)
 
 #### Form Success Page
-![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/form-accessibility.png)
+![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/success-accessibility.png)
 
 #### Coming Soon Page
 ![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/soon-accessibility.png)
+
+***
+### Manual Testing
+As part of manually testing on my own I have:
+* Tested that pages work in different web browsers.
+* I have tested that the project is responsive on different sized devices and functions as normal.
+* I have tested all text and font, ensuring readability.
+* I have tested all links, ensuring there are no deadlinks and all work correctly.
+
+  
+| Page    | Desktop                                                                                                              | Tablet | Mobile |
+|---------|----------------------------------------------------------------------------------------------------------------------|--------|--------|
+| Index   | ![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/Desktop-index.png)   | ![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/tablet-index.png)      | ![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/mobile-index.png)      |
+| Join    | ![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/Desktop-join.png)    | ![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/tablet-join.png)      | ![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/mobile-join.png)      |
+| Classes | ![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/desktop-classes.png) | ![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/tablet-classes.png)      | ![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/mobile-classes.png)      |
+| Contact | ![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/desktop-contact.png) | ![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/tablet-contact.png)      | ![Image of index.html](https://github.com/darrenrob25/AscendGym_Project1/blob/main/assets/Media/mobile-contact.png)      |
+
+***
+
+### Bugs
+During building of the site, bugs reared their head on a few occassions, below are those occassions and how I fixed the problem.
+
+#### Bug 1
+The first bug that I encountered had to do with the header, on mobile devices the pages would drop down to a second line. However, this line was behind the hero image. Making it impossible to navigate on mobile.
+I fixed this by adding a padding while on a mobile device to push the navigation bar down, creating more room for the pages.
+
+Code After:
+```@media only screen and (max-width: 982px){
+    #navigation-bar{
+        padding-bottom: 125px;
+    }
+    }
+```
+
+#### Bug 2
+The second bug that I encountered is that nav links were overlapping when at a galaxy fold size, there were two ways in which this could have been rectified, the first would be a burger dropdown menu. However, I was unsure on how to do these and I couldn't find an example which didn't include javascript. Therefore, I decided to make the text smaller at this device size. Adding a burger menu may be a good idea in the future.
+
+Code After:
+
+```@media(max-width: 320px){ 
+body{
+    font-size: 12px;
+}
+```
