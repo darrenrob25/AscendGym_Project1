@@ -96,3 +96,10 @@ Below are some designs that I've put together to help build the site, these desi
 https://validator.w3.org/nu/?doc=https%3A%2F%2Fdarrenrob25.github.io%2FAscendGym_Project1%2Findex.html
 * Join: No errors were returned when passing it through the official W3C validator<br>
 https://validator.w3.org/nu/?doc=https%3A%2F%2Fdarrenrob25.github.io%2FAscendGym_Project1%2Fjoin.html
+*Form Success: No errors were returned when passing it through the official W3C validator<br>
+https://validator.w3.org/nu/?doc=https%3A%2F%2Fdarrenrob25.github.io%2FAscendGym_Project1%2Fform-success.html
+* Classes: No errors were returned when passing it through the official W3C validator<br>
+https://validator.w3.org/nu/?doc=https%3A%2F%2Fdarrenrob25.github.io%2FAscendGym_Project1%2Fclasses.html
+* Contact: No errors were returned when passing it through the official W3C validator<br>
+https://validator.w3.org/nu/?doc=https%3A%2F%2Fdarrenrob25.github.io%2FAscendGym_Project1%2Fcontact.html
+
